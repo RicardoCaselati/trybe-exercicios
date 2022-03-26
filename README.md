@@ -1,4 +1,5 @@
-# trybe-exercicios
+# Trybe
+
 Este repositÃ³rio contÃ©m todas as atividades de aprendizagem desenvolvidas por _[SeuNomeAqui](LinkDoSeuLinkedinAqui)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe Ã© uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa sÃ³ paga quando conseguir um bom trabalho."_
@@ -251,3 +252,5 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-3: _Entrada e SaÃ­da de dados_
 - [ ] 36-4: _Entrada e SaÃ­da de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
+
+# [...]
