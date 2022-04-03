@@ -1,0 +1,38 @@
+.itens{
+    display: flex;
+}
+
+.super-mario {
+    width: 200px;
+    margin-left: 5px;
+    position: absolute;
+  }
+  
+  .goomba {
+    margin-top: 25%;
+    width: 100px;
+    position: relative;
+    margin-top: 295px;
+  }
+  
+  .baloon {
+    position: relative;
+  }
+  
+  .speach {
+    margin-top: -125px;
+    margin-left: 20px;
+    font-size: 25px;
+    position: relative;
+  }
+  
+  .bowser {
+    width: 200px;
+    margin-left: 290px;
+  }
+
+  .mario{
+      width:20%;
+
+  }
+
