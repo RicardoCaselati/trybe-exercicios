@@ -69,7 +69,7 @@ if (angulo1 + angulo2 + angulo3 + angulo4 == 180) {
 let input = "Rainha";
 
 // Função extraída do site -> https://www.delftstack.com/pt/howto/javascript/javascript-to-lowercase/
-function lower(input) {                    
+function lower(input) {
     return String(input).toLowerCase();
 }
 
@@ -88,3 +88,85 @@ if (lower(input) == "peão") {
 } else {
     console.log("peça não encontrada")
 }
+
+// Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+const porcentagem = 20;
+
+if (porcentagem >= 90 && porcentagem <= 100) {
+    console.log("A");
+} else if (porcentagem >= 80 && porcentagem < 90) {
+    console.log("B");
+} else if (porcentagem >= 70 && porcentagem < 80) {
+    console.log("C");
+} else if (porcentagem >= 60 && porcentagem < 70) {
+    console.log("D");
+} else if (porcentagem >= 50 && porcentagem < 60) {
+    console.log("E");
+} else if (porcentagem < 50 && porcentagem >= 0) {
+    console.log("F");
+} else {
+    console.log("Opa, tem coisa errada.");
+}
+
+// Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+// Bonus: use somente um if .
+
+// esta função de sorteiro de números é uma mistura de dois artigos https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random e https://www.javascriptprogressivo.net/2018/12/Como-Gerar-Numeros-Aleatorios-JS-random-Funcao.html
+
+// function getRandom() {
+//     let resultado=[];
+
+
+//     const numeros = Math.floor(10 * Math.random());
+//     resultado.push(numeros);
+
+//     return resultado
+// }
+// console.log(getRandom())
+
+const a = 1;
+const b = 3;
+const c = 5;
+
+let isEven = false;
+
+if ((a % 2 === 0 || b % 2 === 0 || c % 2 === 0)) {
+    isEven = true;
+};
+console.log(isEven);
+
+// Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
+const a = 1;
+const b = 3;
+const c = 5;
+
+let isOdd = false;
+
+if ((a % 2 === 0 || b % 2 === 0 || c % 2 === 0)) {
+    isOdd = true;
+};
+console.log(isOdd);
+
+// Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+const custoProd = 1;
+const imposto = 0.8; //20%
+const custo = custoProd / imposto;
+const margemLucro = 0.7; //30%
+const valorVenda = custo / margemLucro;
+let numVendas = 1000;
+let lucro = (valorVenda - custo) * numVendas;
+
+
+if (custoProd >= 0 && valorVenda >= 0) {
+    console.log(lucro);
+} else {
+    console.log("Error, os valores não podem ser negativos");
+}
+
+// Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
+const salario = 3000
+const inss = salario*0.11;
+const ir = (salario-inss)*0.075-142.8;
+let salarioBruto = salario-inss-ir;
+
+console.log(salarioBruto)
