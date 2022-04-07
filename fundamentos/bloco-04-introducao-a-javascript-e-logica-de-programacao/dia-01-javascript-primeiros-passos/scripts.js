@@ -17,7 +17,20 @@ if (a>b){
 } else if (b>a){
     console.log(b + "é maior");
 } else {
-    console.log ("são iguais")
+    console.log (" são iguais")
 }
 
 // Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
+const a=1;
+const b=10;
+const c=6;
+
+if (a>b && a>c) {
+    console.log(a + " é maior");
+} else if (b>a && b>c) {
+    console.log(b + " é maior");
+} else if (c>a && c>b) {
+    console.log(c + " é maior");
+} else {
+    console.log("são iguais");
+}
