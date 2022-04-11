@@ -1,4 +1,8 @@
-
+// Utilize o for/of para imprimir os elementos da lista names com o console.log() :
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+// for (let nome of names){
+//     console.log(nome);
+// }
 
 // // 1) Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -89,12 +93,24 @@
 // console.log(numeroMenor)
 
 // Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
-let numero = 25;
-
-for (let index = 1; index < numero; index += 1) {
-    if(index%2){
-
-    }
-}
+// let numbers = [];
+// for (let index = 1; index <= 25; index += 1) {
+//     number.push(index);
+// }
+// console.log(numbers)
 
 // Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+
+// let numbers = [];
+// for (let index = 1; index <= 25; index += 1) {
+//     numbers.push(index);
+// }
+// console.log(numbers)
+
+// for (let index = 0; index <numbers.length; index += 1) {
+//     let resultado = index / 2;
+//     console.log(resultado);
+// }
+
+
+// BÔNUS
