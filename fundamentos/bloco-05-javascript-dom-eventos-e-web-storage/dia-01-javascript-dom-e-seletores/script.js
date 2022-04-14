@@ -1,9 +1,11 @@
 document.getElementById("header-container").style.backgroundColor = "#2fc18c";
 
-// document.getElementsByClassName('header-container')[0].style.backgroundColor = 'pourple';
-document.getElementsByTagName("div")[0].style.backgroundColor = "pink";
-document.getElementsByTagName("div")[1].style.backgroundColor = "pink";
+document.getElementsByTagName("h3")[0].style.backgroundColor = '#a500f3';
+document.getElementsByTagName("h3")[1].style.backgroundColor = '#a500f3';
+document.getElementsByClassName("emergency-tasks")[0].style.backgroundColor = "#ff9f84";
 
-//document.getElementsByClassName('header-container')[0].style.backgroundColor = 'black';
-document.getElementsByTagName("div")[2].style.backgroundColor = "yellow";
-document.getElementsByTagName("div")[3].style.backgroundColor = "yellow";
+document.getElementsByTagName("h3")[2].style.backgroundColor = 'black';
+document.getElementsByTagName("h3")[3].style.backgroundColor = 'black';
+document.getElementsByClassName("no-emergency-tasks")[0].style.backgroundColor = "#f9db5e";
+
+document.getElementById("footer-container").style.backgroundColor = "#003533";
