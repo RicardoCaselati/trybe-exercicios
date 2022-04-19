@@ -12,5 +12,41 @@ function createDaysOfTheWeek() {
   };
   
   createDaysOfTheWeek();
-  
-  // Escreva seu código abaixo.
+
+
+
+function calendar(){
+    const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+    const dezDays = document.getElementById("days");
+
+    for (const date of dezDaysList){
+        const dateListItem = document.createElement("li");
+        dateListItem.classList.add("day")
+
+        if (date === 24 || date === 25 || date === 31){
+            dateListItem.classList.add("holiday")
+        }
+
+        if (date === 4 || date === 11 || date === 18 || date === 25){
+            dateListItem.classList.add("friday")
+        }
+
+        dateListItem.innerHTML = date;
+
+        dezDays.appendChild(dateListItem);
+    }
+}
+
+calendar();
+
+
+function bottomHolidays(param){
+    const buttom = document.createElement("buttom");
+    // _button.data = _a;
+    buttom.innerHTML= "Feriados";
+
+    // _button.onclick = function()
+    const divTag = document.getElementsByClassName("buttons-container")[0];
+    divTag.appendChild(buttom)
+}
+bottomHolidays("Feriados")
