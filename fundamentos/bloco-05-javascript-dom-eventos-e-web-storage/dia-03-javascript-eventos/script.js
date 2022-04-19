@@ -60,3 +60,15 @@ function buttonHolidays(param) {
 }
 
 buttonHolidays("Feriados")
+
+function fridayButton(param){
+    const divTag = document.getElementsByClassName("buttons-container")[0];
+    const button2 = document.createElement("button");
+    button2.innerHTML = param;
+    button2.setAttribute("id", "btn-friday");
+
+    
+    divTag.appendChild(button2);
+}
+
+fridayButton("Sexta-feira")

@@ -154,5 +154,6 @@
   }
 
   .bg-red{
-      background-color: pink;
+      background-color: #00b069;
+      color: rgb(238, 238, 238);
   }
