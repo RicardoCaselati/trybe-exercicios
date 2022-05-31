@@ -28,6 +28,7 @@ function calendar() {
 
         if (date === 4 || date === 11 || date === 18 || date === 25) {
             dateListItem.classList.add("friday")
+            dateListItem.setAttribute("id", "friday");
         }
 
         dateListItem.innerHTML = date;
@@ -61,14 +62,36 @@ function buttonHolidays(param) {
 
 buttonHolidays("Feriados")
 
-function fridayButton(param){
+function fridayButton(param) {
     const divTag = document.getElementsByClassName("buttons-container")[0];
     const button2 = document.createElement("button");
     button2.innerHTML = param;
     button2.setAttribute("id", "btn-friday");
 
-    
+    button2.addEventListener("click", changeText);
+
     divTag.appendChild(button2);
 }
 
 fridayButton("Sexta-feira")
+
+function changeText() {
+    const text = document.querySelectorAll(".friday");
+    for (let index in text) {
+        switch (text[index]) {
+            case "4":
+            text[index].innerText = "Uhuul!";
+
+            case "11":
+            text[index].innerText = "Uhuul!"
+
+            case "18":
+            text[index].innerText = "Uhuul!";
+
+            case "25":
+            text[index].innerText = "Uhuul!";
+            default:
+            text[index]
+        }
+    }
+}
