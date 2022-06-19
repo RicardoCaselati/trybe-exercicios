@@ -62,4 +62,6 @@ const books = [
   },
 ];
 
+console.log(books);
+
 // Adicione o código do exercício aqui:
