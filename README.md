@@ -142,13 +142,20 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Bloco 19: Docker- Utilizando Containers
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [x] 19-1: _Utilizando Containers - Docker_
+- [x] 19-2: _Manipulando Imagens no Docker_
+- [x] 19-3: _Orquestrando Containers com Docker Compose_
+- [x] 19-5: _[Projeto - Docker Todo-List]()_
+
+##### Bloco 20: Introdução à SQL
+
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One](https://github.com/RicardoCaselati/mysql-all-for-one)_
 
 ##### Bloco 21: Bancos de dados relacionais
 
